@@ -1,0 +1,3 @@
+include ':androidSupportV4_PreferenceFragment'
+include ':numberPicker'
+include ':vhb'

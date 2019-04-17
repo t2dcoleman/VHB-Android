@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Created by Wes Turney on 12/17/13.
+
+VirtualHopeBox
+
+Copyright © 2009-2014 United States Government as represented by
+the Chief Information Officer of the National Center for Telehealth
+and Technology. All Rights Reserved.
+
+Copyright © 2009-2014 Contributors. All Rights Reserved.
+
+THIS OPEN SOURCE AGREEMENT ("AGREEMENT") DEFINES THE RIGHTS OF USE,
+REPRODUCTION, DISTRIBUTION, MODIFICATION AND REDISTRIBUTION OF CERTAIN
+COMPUTER SOFTWARE ORIGINALLY RELEASED BY THE UNITED STATES GOVERNMENT
+AS REPRESENTED BY THE GOVERNMENT AGENCY LISTED BELOW ("GOVERNMENT AGENCY").
+THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN
+INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR
+REDISTRIBUTIONS OF THE SUBJECT SOFTWARE. ANYONE WHO USES, REPRODUCES,
+DISTRIBUTES, MODIFIES OR REDISTRIBUTES THE SUBJECT SOFTWARE, AS DEFINED
+HEREIN, OR ANY PART THEREOF, IS, BY THAT ACTION, ACCEPTING IN FULL THE
+RESPONSIBILITIES AND OBLIGATIONS CONTAINED IN THIS AGREEMENT.
+
+Government Agency: The National Center for Telehealth and Technology
+Government Agency Original Software Designation: VirtualHopeBox001
+Government Agency Original Software Title: VirtualHopeBox
+User Registration Requested. Please send email
+with your contact information to: robert.a.kayl.civ@mail.mil
+Government Agency Point of Contact for Original Software: robert.a.kayl.civ@mail.mil
+-->
+<resources>
+
+    <string name="s_BeachText">You are about to be led through a relaxation exercise focused on visualizing something pleasant. This exercise takes about 4 minutes. It has accompanying audio, so you will have to find a quiet place or put on your headphones now.</string>
+    <string name="s_RoadText">You are about to be led through a relaxation exercise focused on visualizing something pleasant. This exercise takes about 4 minutes. It has accompanying audio, so you will have to find a quiet place or put on your headphones now</string>
+    <string name="s_ForestText">You are about to be led through a relaxation exercise focused on visualizing something pleasant.  This exercise takes about 4 minutes.  It has accompanying audio so you will have to find a quiet place or put on your headphones now.</string>
+    <string name="s_Forest01">First, remove all distractions - let others know not to bother you.</string>
+    <string name="s_Forest02">Make yourself comfortable, so that your thoughts are on the image and nothing else.</string>
+    <string name="s_Forest03">Sit, or lie down, in a quiet, comfortable place.</string>
+    <string name="s_Forest04">Mentally scan your body for tense muscles.</string>
+    <string name="s_Forest05">If you find a muscle is tense, or clenched, relax it.</string>
+    <string name="s_Forest06">During the imagery exercise, involve all of your senses in the image: sight, sound, smell, touch, and taste.</string>
+    <string name="s_Forest07">Get completely focused.</string>
+    <string name="s_Forest08">The more focused you are, the better.</string>
+    <string name="s_Forest09">Close your eyes, or lower your gaze.</string>
+    <string name="s_Forest10">Imagine that you are walking down a path, into a lush forest.</string>
+    <string name="s_Forest11">As you walk along the path, you completely take in the sights, sounds, smells, and feel of the place.</string>
+    <string name="s_Forest12">All around you are trees, grasses, mossy ground cover, and fragrant flowers.</string>
+    <string name="s_Forest13">You hear the soothing sounds of birds chirping, and the wind as it gently blows through the treetops.</string>
+    <string name="s_Forest14">You smell the rich dampness of the forest floor, the smells of moist vegetation and new growth.</string>
+    <string name="s_Forest15">Through gaps in the treetops, you see the sun high in the cloudless blue sky.</string>
+    <string name="s_Forest16">The sun is dispersed through the canopy of the treetops and filters down onto the forest floor, creating intricate patterns of light and shadow.</string>
+    <string name="s_Forest17">With each breath you take in this place, you feel a deep sense of peace and relaxation.</string>
+    <string name="s_Forest18">You soon come to a clearing.</string>
+    <string name="s_Forest19">There are several flat rocks in the clearing surrounded by a soft moss.</string>
+    <string name="s_Forest20">A small stream runs along the rocks.</string>
+    <string name="s_Forest21">You lie back on one of the rocks, or on the cushiony moss, and put your feet into the cool water.</string>
+    <string name="s_Forest22">You feel the warm sun and a gentle, light breeze through your hair and across your skin.</string>
+    <string name="s_Forest23">The sparkling clear water rushes around the multi-colored rocks, making little whirlpools and eddies.</string>
+    <string name="s_Forest24">You put your hand into the water and lift a handful to your lips.</string>
+    <string name="s_Forest25">The water is cool and refreshing.</string>
+    <string name="s_Forest26">You close your eyes and listen to the water trickling around the rocks. You bathe in the warm sun, and feel as though you\'re floating, relaxing deeper and deeper.</string>
+    <string name="s_Forest27">You let yourself sink further into relaxation while continuing to be aware of the sights, smells, sounds, and feel of the forest around you.</string>
+    <string name="s_Forest28">You allow yourself to let go of any concerns or worries, and to feel completely refreshed and rejuvenated in this place.</string>
+    <string name="s_Forest29">When you\'re ready, imagine that you slowly get up and leave the clearing.</string>
+    <string name="s_Forest30">As you walk back down the path through the forest, fully take in this place, and realize that you may return whenever you wish by the same path.</string>
+    <string name="s_Forest31">Each time you enter this place, you will feel relaxed and at peace.</string>
+    <string name="s_Road01">First, remove distractions - let others know not to bother you.</string>
+    <string name="s_Road02">Make yourself comfortable, so that your thoughts are on the image and nothing else.</string>
+    <string name="s_Road03">Sit, or lie down, in a quiet, comfortable place, then, mentally scan your body for tense muscles.</string>
+    <string name="s_Road04">If you find a muscle is tense, or clenched, relax it.</string>
+    <string name="s_Road05">During the imagery exercise, involve all of your senses in the image: sight, sound, smell, touch, and taste</string>
+    <string name="s_Road06">Get completely focused.</string>
+    <string name="s_Road07">The more focused you are, the better.</string>
+    <string name="s_Road08">Imagine yourself walking along an old country road. The sun is warm on your back, the birds are singing, the air is calm and fragrant.</string>
+    <string name="s_Road09">After a few steps, you come across an old gate.</string>
+    <string name="s_Road10">The gate creaks as you open it and go through.</string>
+    <string name="s_Road11">You find yourself in an overgrown garden, flowers growing where they have seeded themselves, vines climbing over a fallen tree, green grass, and shade trees.</string>
+    <string name="s_Road12">Breathe deeply, smelling the flowers.</string>
+    <string name="s_Road13">Listen to the birds and insects.</string>
+    <string name="s_Road14">Feel the gentle breeze, warm against your skin.</string>
+    <string name="s_Road15">You walk leisurely up a gentle slope behind the garden, and come to a wooded area, where the trees become denser</string>
+    <string name="s_Road16">The sun is filtered through the leaves.</string>
+    <string name="s_Road17">The air feels mild, and a bit cooler.</string>
+    <string name="s_Road18">You become aware of the sound of a nearby brook.</string>
+    <string name="s_Road19">You breathe deeply of the cool and fragrant air several times, and with each breath, you feel more relaxed.</string>
+    <string name="s_Road20">Soon, you come upon the brook.</string>
+    <string name="s_Road21">It\'s clear and clean as it tumbles over the rocks and some fallen logs.</string>
+    <string name="s_Road22">You follow the path along the brook for a ways</string>
+    <string name="s_Road23">The path takes you out into a sunlit clearing where you discover a small and picturesque waterfall.</string>
+    <string name="s_Road24">There\'s a rainbow in the mist.</string>
+    <string name="s_Road25">You find a comfortable place to sit for awhile, a perfect spot where you can feel completely relaxed.</string>
+    <string name="s_Road26">You feel good, as you allow yourself to just enjoy the warmth and solitude of this peaceful place.</string>
+    <string name="s_Road27">It\'s now time to return.</string>
+    <string name="s_Road28">You walk back down the path, through the cool trees, out into the sun-drenched overgrown garden, one last smell of the flowers, and out the creaky gate.</string>
+    <string name="s_Road29">You leave this secret retreat, for now, and return down the country road</string>
+    <string name="s_Road30">Then, back to the room, slowly open your eyes, and remember, you can visit this place whenever you wish.</string>
+    <string name="s_Beach01">First, remove distractions - let others know not to bother you.</string>
+    <string name="s_Beach02">Make yourself comfortable, so that your thoughts are on the image and nothing else.</string>
+    <string name="s_Beach03">Sit, or lie down, in a quiet, comfortable place.</string>
+    <string name="s_Beach04">Then, mentally scan your body for tense muscles.</string>
+    <string name="s_Beach05">If you find a muscle that\'s tense, or clenched, relax it.</string>
+    <string name="s_Beach06">During the imagery exercise, involve all of your senses in the image: sight, sound, smell, touch, and taste.</string>
+    <string name="s_Beach07">Get completely focused.</string>
+    <string name="s_Beach08">The more focused you are, the better.</string>
+    <string name="s_Beach09">Close your eyes, or lower your gaze.</string>
+    <string name="s_Beach10">In your mind\'s eye, you see yourself descending down a long, narrow, wooden stairway, toward a beautiful, inviting beach.</string>
+    <string name="s_Beach11">Your bare feet feel the rough, weathered step</string>
+    <string name="s_Beach12">And with each step, you feel more and more tension gently melting away from your body.</string>
+    <string name="s_Beach13">As you continue down the stairway, you notice the ocean is a deep shade of blue, with the fine, white crests of the waves sweeping towards the shore.</string>
+    <string name="s_Beach14">You reach the end of the stairway, and step down, sinking into the warmth.</string>
+    <string name="s_Beach15">As you soak in the warmth of the sun, a soothing sensation of relaxation gently melts through your entire body.</string>
+    <string name="s_Beach16">The gentle sounds of the water lapping up onto the beach calm your mind, and allow you to feel even more relaxed.</string>
+    <string name="s_Beach17">You begin walking slowly towards the edge of the water, and feel the warm sun on your face and shoulders.</string>
+    <string name="s_Beach18">The salty smell of the ocean air invigorates you, and you take in a deep breath.</string>
+    <string name="s_Beach19">Breathe slowly out, and feel more relaxed and refreshed.</string>
+    <string name="s_Beach20">Finally, you reach the water\'s edge, and you gladly invite the little surges to flow over your toes and ankles.</string>
+    <string name="s_Beach21">You watch the surges glide smoothly towards you, gently sweeping around your feet, and the trails of ocean water that flows slowly back out again.</string>
+    <string name="s_Beach22">The cool water feels soft and comforting, as you enjoy a few moments, allowing yourself to gaze out on the far-reaching horizon.</string>
+    <string name="s_Beach23">Overhead, you notice two birds gracefully soaring high above the ocean.</string>
+    <string name="s_Beach24">And you can hear their soft cries becoming faint as they glide away.</string>
+    <string name="s_Beach25">All of these sights, sounds, and sensations allow you to relax and let go, more and more.</string>
+    <string name="s_Beach26">After a few moments, you begin slowly strolling down the beach, at the water\'s edge.</string>
+    <string name="s_Beach27">You feel a warm, gentle breeze, pressing lightly against your back, and, with every step, you feel yourself relaxing, more and more.</string>
+    <string name="s_Beach28">As you walk down the beach, you notice the details of sights and sounds around you, and the soothing sensations of the sun, the gentle breeze, and the sand below your feet.</string>
+    <string name="s_Beach29">As you continue your leisurely walk down the beach, you notice a colorful beach chair, resting in a nice, peaceful spot, where the powdery, soft sand lies undisturbed.</string>
+    <string name="s_Beach30">You approach this comfortable-looking beach chair, then you sit down, lie back, and settle in.</string>
+    <string name="s_Beach31">You take in a long, deep breath, breathe slowly out, and feel even more relaxed and comfortable, resting in your chair.</string>
+    <string name="s_Beach32">For a few moments more, let yourself enjoy the sights and sounds of this beautiful day on the beach.</string>
+    <string name="s_Beach33">When you\'re ready, gently bring your attention back to the room, still letting yourself feel relaxed and comfortable, sitting where you are.</string>
+
+</resources>

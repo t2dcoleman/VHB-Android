@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Created by Wes Turney on 12/17/13.
+
+SudokuLib
+
+Copyright © 2009-2014 United States Government as represented by
+the Chief Information Officer of the National Center for Telehealth
+and Technology. All Rights Reserved.
+
+Copyright © 2009-2014 Contributors. All Rights Reserved.
+
+THIS OPEN SOURCE AGREEMENT ("AGREEMENT") DEFINES THE RIGHTS OF USE,
+REPRODUCTION, DISTRIBUTION, MODIFICATION AND REDISTRIBUTION OF CERTAIN
+COMPUTER SOFTWARE ORIGINALLY RELEASED BY THE UNITED STATES GOVERNMENT
+AS REPRESENTED BY THE GOVERNMENT AGENCY LISTED BELOW ("GOVERNMENT AGENCY").
+THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN
+INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR
+REDISTRIBUTIONS OF THE SUBJECT SOFTWARE. ANYONE WHO USES, REPRODUCES,
+DISTRIBUTES, MODIFIES OR REDISTRIBUTES THE SUBJECT SOFTWARE, AS DEFINED
+HEREIN, OR ANY PART THEREOF, IS, BY THAT ACTION, ACCEPTING IN FULL THE
+RESPONSIBILITIES AND OBLIGATIONS CONTAINED IN THIS AGREEMENT.
+
+Government Agency: The National Center for Telehealth and Technology
+Government Agency Original Software Designation: SudokuLib001
+Government Agency Original Software Title: SudokuLib
+User Registration Requested. Please send email
+with your contact information to: robert.a.kayl.civ@mail.mil
+Government Agency Point of Contact for Original Software: robert.a.kayl.civ@mail.mil
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay_sudoku"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <com.t2.sudoku.SudokuGridView
+        android:id="@+id/grd_sudoku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lay_buttons"
+        android:layout_alignParentTop="true"
+        android:padding="0dp" />
+
+    <TableLayout
+        android:id="@+id/lay_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false" >
+
+            <ToggleButton
+                android:id="@+id/btn_1"
+                style="@style/SudokuButton"
+                android:tag="1"
+                android:textOff="1"
+                android:textOn="1" />
+
+            <ToggleButton
+                android:id="@+id/btn_2"
+                style="@style/SudokuButton"
+                android:tag="2"
+                android:textOff="2"
+                android:textOn="2" />
+
+            <ToggleButton
+                android:id="@+id/btn_3"
+                style="@style/SudokuButton"
+                android:tag="3"
+                android:textOff="3"
+                android:textOn="3" />
+
+            <Button
+                android:id="@+id/btn_clear"
+                style="@style/SudokuButton"
+                android:text="@string/clear"
+                android:filterTouchesWhenObscured="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false" >
+
+            <ToggleButton
+                android:id="@+id/btn_4"
+                style="@style/SudokuButton"
+                android:tag="4"
+                android:textOff="4"
+                android:textOn="4" />
+
+            <ToggleButton
+                android:id="@+id/btn_5"
+                style="@style/SudokuButton"
+                android:tag="5"
+                android:textOff="5"
+                android:textOn="5" />
+
+            <ToggleButton
+                android:id="@+id/btn_6"
+                style="@style/SudokuButton"
+                android:tag="6"
+                android:textOff="6"
+                android:textOn="6" />
+
+            <Button
+                android:id="@+id/btn_invert"
+                style="@style/SudokuButton"
+                android:text="@string/invert"
+                android:filterTouchesWhenObscured="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false" >
+
+            <ToggleButton
+                android:id="@+id/btn_7"
+                style="@style/SudokuButton"
+                android:tag="7"
+                android:textOff="7"
+                android:textOn="7" />
+
+            <ToggleButton
+                android:id="@+id/btn_8"
+                style="@style/SudokuButton"
+                android:tag="8"
+                android:textOff="8"
+                android:textOn="8" />
+
+            <ToggleButton
+                android:id="@+id/btn_9"
+                style="@style/SudokuButton"
+                android:tag="9"
+                android:textOff="9"
+                android:textOn="9" />
+
+            <Button
+                style="@style/SudokuButton"
+                android:visibility="invisible"
+                android:filterTouchesWhenObscured="true" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

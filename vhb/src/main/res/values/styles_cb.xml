@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Created by Wes Turney on 12/17/13.
+
+ControlledBreathingLib
+
+Copyright © 2009-2014 United States Government as represented by
+the Chief Information Officer of the National Center for Telehealth
+and Technology. All Rights Reserved.
+
+Copyright © 2009-2014 Contributors. All Rights Reserved.
+
+THIS OPEN SOURCE AGREEMENT ("AGREEMENT") DEFINES THE RIGHTS OF USE,
+REPRODUCTION, DISTRIBUTION, MODIFICATION AND REDISTRIBUTION OF CERTAIN
+COMPUTER SOFTWARE ORIGINALLY RELEASED BY THE UNITED STATES GOVERNMENT
+AS REPRESENTED BY THE GOVERNMENT AGENCY LISTED BELOW ("GOVERNMENT AGENCY").
+THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN
+INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR
+REDISTRIBUTIONS OF THE SUBJECT SOFTWARE. ANYONE WHO USES, REPRODUCES,
+DISTRIBUTES, MODIFIES OR REDISTRIBUTES THE SUBJECT SOFTWARE, AS DEFINED
+HEREIN, OR ANY PART THEREOF, IS, BY THAT ACTION, ACCEPTING IN FULL THE
+RESPONSIBILITIES AND OBLIGATIONS CONTAINED IN THIS AGREEMENT.
+
+Government Agency: The National Center for Telehealth and Technology
+Government Agency Original Software Designation: ControlledBreathingLib001
+Government Agency Original Software Title: ControlledBreathingLib
+User Registration Requested. Please send email
+with your contact information to: robert.a.kayl.civ@mail.mil
+Government Agency Point of Contact for Original Software: robert.a.kayl.civ@mail.mil
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="ControlledBreathingLargeTextPortrait" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:shadowColor">#FF000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">4.0</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize" tools:ignore="SpUsage">60dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ControlledBreathingLargeTextLandscape" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:shadowColor">#FF000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">4.0</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize" tools:ignore="SpUsage">60dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

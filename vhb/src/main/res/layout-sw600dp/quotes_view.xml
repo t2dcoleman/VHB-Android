@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Created by Wes Turney on 12/17/13.
+
+VirtualHopeBox
+
+Copyright © 2009-2014 United States Government as represented by
+the Chief Information Officer of the National Center for Telehealth
+and Technology. All Rights Reserved.
+
+Copyright © 2009-2014 Contributors. All Rights Reserved.
+
+THIS OPEN SOURCE AGREEMENT ("AGREEMENT") DEFINES THE RIGHTS OF USE,
+REPRODUCTION, DISTRIBUTION, MODIFICATION AND REDISTRIBUTION OF CERTAIN
+COMPUTER SOFTWARE ORIGINALLY RELEASED BY THE UNITED STATES GOVERNMENT
+AS REPRESENTED BY THE GOVERNMENT AGENCY LISTED BELOW ("GOVERNMENT AGENCY").
+THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN
+INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR
+REDISTRIBUTIONS OF THE SUBJECT SOFTWARE. ANYONE WHO USES, REPRODUCES,
+DISTRIBUTES, MODIFIES OR REDISTRIBUTES THE SUBJECT SOFTWARE, AS DEFINED
+HEREIN, OR ANY PART THEREOF, IS, BY THAT ACTION, ACCEPTING IN FULL THE
+RESPONSIBILITIES AND OBLIGATIONS CONTAINED IN THIS AGREEMENT.
+
+Government Agency: The National Center for Telehealth and Technology
+Government Agency Original Software Designation: VirtualHopeBox001
+Government Agency Original Software Title: VirtualHopeBox
+User Registration Requested. Please send email
+with your contact information to: robert.a.kayl.civ@mail.mil
+Government Agency Point of Contact for Original Software: robert.a.kayl.civ@mail.mil
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay_quote_scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center|center_vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:fillViewport="true"
+    android:focusable="true"
+    tools:ignore="UselessParent" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:importantForAccessibility="no"
+        android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/border_top"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:contentDescription="@string/top_border"
+            android:scaleType="centerCrop"
+            android:src="@drawable/quote_top" />
+        <com.t2.vhb.inspire.quotes.QuoteLayout
+            android:id="@+id/lay_quote_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:gravity="center"
+            android:importantForAccessibility="no"
+            android:padding="10dp"
+            android:visibility="visible" >
+            <ImageView
+                android:id="@+id/img_quote"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:contentDescription="@null"
+                android:importantForAccessibility="no"
+                android:paddingBottom="4dp"
+                android:src="@drawable/singlequote" />
+            <TextView
+                android:id="@+id/lbl_quote_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/img_quote"
+                android:importantForAccessibility="no"
+                android:lineSpacingExtra="6dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/lbl_quote_line_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/img_quote"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/img_quote"
+                android:importantForAccessibility="no"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="26sp" />
+            <TextView
+                android:id="@+id/lbl_quote_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/lbl_quote_body"
+                android:importantForAccessibility="no"
+                android:paddingTop="10dp"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </com.t2.vhb.inspire.quotes.QuoteLayout>
+        <ImageView
+            android:id="@+id/border_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:contentDescription="@string/bottom_border"
+            android:scaleType="centerCrop"
+            android:src="@drawable/quote_bottom" />
+    </LinearLayout>
+</ScrollView>

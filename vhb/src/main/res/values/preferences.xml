@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Created by Wes Turney on 12/17/13.
+
+VirtualHopeBox
+
+Copyright © 2009-2014 United States Government as represented by
+the Chief Information Officer of the National Center for Telehealth
+and Technology. All Rights Reserved.
+
+Copyright © 2009-2014 Contributors. All Rights Reserved.
+
+THIS OPEN SOURCE AGREEMENT ("AGREEMENT") DEFINES THE RIGHTS OF USE,
+REPRODUCTION, DISTRIBUTION, MODIFICATION AND REDISTRIBUTION OF CERTAIN
+COMPUTER SOFTWARE ORIGINALLY RELEASED BY THE UNITED STATES GOVERNMENT
+AS REPRESENTED BY THE GOVERNMENT AGENCY LISTED BELOW ("GOVERNMENT AGENCY").
+THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN
+INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR
+REDISTRIBUTIONS OF THE SUBJECT SOFTWARE. ANYONE WHO USES, REPRODUCES,
+DISTRIBUTES, MODIFIES OR REDISTRIBUTES THE SUBJECT SOFTWARE, AS DEFINED
+HEREIN, OR ANY PART THEREOF, IS, BY THAT ACTION, ACCEPTING IN FULL THE
+RESPONSIBILITIES AND OBLIGATIONS CONTAINED IN THIS AGREEMENT.
+
+Government Agency: The National Center for Telehealth and Technology
+Government Agency Original Software Designation: VirtualHopeBox001
+Government Agency Original Software Title: VirtualHopeBox
+User Registration Requested. Please send email
+with your contact information to: robert.a.kayl.civ@mail.mil
+Government Agency Point of Contact for Original Software: robert.a.kayl.civ@mail.mil
+-->
+<resources>
+
+    <!-- Photo Puzzle -->
+    <string name="pref_photo_puzzle_columns">pref_photo_puzzle_columns</string>
+    <string name="pref_photo_puzzle_rows">pref_photo_puzzle_rows</string>
+
+    <!-- Global -->
+    <string name="pref_send_feedback">pref_send_feedback</string>
+    <string name="pref_rate_app">pref_rate_app</string>
+
+    <!-- Setup -->
+    <string name="pref_setup_complete">pref_setup_complete</string>
+    <string name="pref_setup_eula_accepted">dha_pref_setup_eula_accepted</string>
+
+    <!-- Quotes -->
+    <string name="pref_quotes_delay">pref_quotes_delay</string>
+    <string name="pref_quotes_reminder_time">pref_quotes_reminder_time</string>
+
+    <!-- Media -->
+    <string name="pref_media_filter_videos">pref_media_filter_videos</string>
+    <string name="pref_media_filter_music">pref_media_filter_music</string>
+    <string name="pref_media_filter_photos">pref_media_filter_photos</string>
+    <string name="pref_media_filter_messages">pref_media_filter_messages</string>
+    <string name="pref_reminder_toast_shown">pref_reminder_toast_shown</string>
+
+</resources>

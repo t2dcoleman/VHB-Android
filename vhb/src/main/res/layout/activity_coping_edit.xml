@@ -1,0 +1,176 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".coping.cards.CopingEditActivity"
+    tools:ignore="UselessParent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_large" >
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_very_large" >
+            <TextView
+                android:id="@+id/problem_area_title"
+                style="@style/copingCardTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/problem_area_section_header_desc"
+                android:text="@string/problem_area_section_header" />
+
+            <EditText
+                android:id="@+id/problem_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/problem_area_title"
+                android:layout_marginTop="@dimen/margin_small"
+                android:ems="10"
+                android:hint="@string/problem_area_field_hint"
+                android:inputType="textCapSentences"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/symptoms_title"
+                style="@style/copingCardTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/problem_area"
+                android:layout_marginTop="@dimen/margin_large"
+                android:contentDescription="@string/symptoms_section_header_desc"
+                android:text="@string/symptoms_section_header" />
+
+            <LinearLayout
+                android:id="@+id/symptoms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/symptoms_title"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/add_symptom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/symptoms"
+                android:contentDescription="@string/symptom_add_button_desc"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:text="@string/symptoms_add_button"
+                android:filterTouchesWhenObscured="true" />
+
+            <TextView
+                android:id="@+id/coping_skills_title"
+                style="@style/copingCardTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add_symptom"
+                android:layout_marginTop="@dimen/margin_large"
+                android:contentDescription="@string/coping_skills_section_header_desc"
+                android:text="@string/coping_skills_section_header" />
+
+            <LinearLayout
+                android:id="@+id/coping_skills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/coping_skills_title"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/add_coping_skill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/coping_skills"
+                android:layout_marginRight="40dp"
+                android:contentDescription="@string/coping_skills_add_button_desc"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:text="@string/coping_skills_add_button"
+                android:filterTouchesWhenObscured="true" />
+
+            <TextView
+                android:id="@+id/step_one"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/problem_area"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/info_popup"
+                android:contentDescription="@string/coping_overlay_step_1_desc"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="20dp"
+                android:text="@string/coping_overlay_step_1" />
+
+            <TextView
+                android:id="@+id/step_two"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/symptoms"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/info_popup"
+                android:contentDescription="@string/coping_overlay_step_2_desc"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="20dp"
+                android:text="@string/coping_overlay_step_2"
+                 />
+
+            <TextView
+                android:id="@+id/step_three"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/coping_skills"
+                android:layout_marginBottom="-25dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/info_popdown"
+                android:contentDescription="@string/coping_overlay_step_3_desc"
+                android:paddingBottom="20dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="12dp"
+                android:text="@string/coping_overlay_step_3"
+                 />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/discard"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/action_discard"
+                android:filterTouchesWhenObscured="true" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/action_save"
+                android:filterTouchesWhenObscured="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

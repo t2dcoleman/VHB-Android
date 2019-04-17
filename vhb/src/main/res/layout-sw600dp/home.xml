@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Created by Wes Turney on 12/17/13.
+
+VirtualHopeBox
+
+Copyright © 2009-2014 United States Government as represented by
+the Chief Information Officer of the National Center for Telehealth
+and Technology. All Rights Reserved.
+
+Copyright © 2009-2014 Contributors. All Rights Reserved.
+
+THIS OPEN SOURCE AGREEMENT ("AGREEMENT") DEFINES THE RIGHTS OF USE,
+REPRODUCTION, DISTRIBUTION, MODIFICATION AND REDISTRIBUTION OF CERTAIN
+COMPUTER SOFTWARE ORIGINALLY RELEASED BY THE UNITED STATES GOVERNMENT
+AS REPRESENTED BY THE GOVERNMENT AGENCY LISTED BELOW ("GOVERNMENT AGENCY").
+THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN
+INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR
+REDISTRIBUTIONS OF THE SUBJECT SOFTWARE. ANYONE WHO USES, REPRODUCES,
+DISTRIBUTES, MODIFIES OR REDISTRIBUTES THE SUBJECT SOFTWARE, AS DEFINED
+HEREIN, OR ANY PART THEREOF, IS, BY THAT ACTION, ACCEPTING IN FULL THE
+RESPONSIBILITIES AND OBLIGATIONS CONTAINED IN THIS AGREEMENT.
+
+Government Agency: The National Center for Telehealth and Technology
+Government Agency Original Software Designation: VirtualHopeBox001
+Government Agency Original Software Title: VirtualHopeBox
+User Registration Requested. Please send email
+with your contact information to: robert.a.kayl.civ@mail.mil
+Government Agency Point of Contact for Original Software: robert.a.kayl.civ@mail.mil
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:vhb="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:id="@+id/tbl_dash"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/divider"
+        android:orientation="vertical"
+        android:weightSum="5" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="3"
+            android:baselineAligned="true" >
+
+            <RelativeLayout
+                android:id="@+id/btn_remind"
+                style="@style/MainMenuButton"
+                android:layout_width="match_parent"
+                android:background="@android:color/transparent"
+                tools:ignore="UselessParent" >
+
+                <ImageButton
+                    android:id="@+id/img_reminder"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@null"
+                    android:clickable="true"
+                    android:contentDescription="@string/remind_me"
+                    android:focusable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/splash_vert" />
+
+                <ImageView
+                    android:id="@+id/icon_remind"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_alignLeft="@+id/lbl_remind"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="60dp"
+                    android:contentDescription="@null"
+                    android:focusable="false"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/icon_home_remind_me" />
+
+                <com.t2.vhb.util.OutlinedTextView
+                    android:id="@+id/lbl_remind"
+                    style="@style/MenuItemText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="left"
+                    android:importantForAccessibility="no"
+                    android:text="@string/remind_me"
+                    android:textSize="42dp"
+                    tools:ignore="SpUsage"
+                    vhb:outlineColor="#FF000000"
+                    vhb:outlineSize="4" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:baselineAligned="false" >
+
+            <RelativeLayout
+                android:id="@+id/btn_distract"
+                style="@style/MainMenuButton"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="#339933" >
+                <ImageButton
+                    android:id="@+id/img_distract"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@null"
+                    android:contentDescription="@string/distract_me"
+                    android:focusable="true"
+                    android:nextFocusRight="@+id/img_relax"
+                    android:padding="20dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/sel_distract_icon" />
+                <com.t2.vhb.util.OutlinedTextView
+                    android:id="@+id/lbl_distract"
+                    style="@style/MenuItemText"
+                    android:gravity="left"
+                    android:importantForAccessibility="no"
+                    android:text="@string/distract_me"
+                    vhb:outlineColor="#FF000000"
+                    vhb:outlineSize="4" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_inspire"
+                style="@style/MainMenuButton"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="#cd9933" >
+                <ImageButton
+                    android:id="@+id/img_inspire"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@null"
+                    android:contentDescription="@string/inspire_me"
+                    android:focusable="true"
+                    android:nextFocusRight="@+id/img_coping"
+                    android:padding="20dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/sel_inspire_icon" />
+                <com.t2.vhb.util.OutlinedTextView
+                    android:id="@+id/lbl_inspire"
+                    style="@style/MenuItemText"
+                    android:gravity="left"
+                    android:importantForAccessibility="no"
+                    android:text="@string/inspire_me"
+                    vhb:outlineColor="#FF000000"
+                    vhb:outlineSize="4" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:baselineAligned="false" >
+
+            <RelativeLayout
+                android:id="@+id/btn_relax"
+                style="@style/MainMenuButton"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="#0167b1" >
+                <ImageButton
+                    android:id="@+id/img_relax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@null"
+                    android:contentDescription="@string/relax_me"
+                    android:focusable="true"
+                    android:nextFocusRight="@+id/img_inspire"
+                    android:padding="20dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/sel_relax_icon" />
+                <com.t2.vhb.util.OutlinedTextView
+                    android:id="@+id/lbl_relax"
+                    style="@style/MenuItemText"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:gravity="left"
+                    android:importantForAccessibility="no"
+                    android:text="@string/relax_me"
+                    vhb:outlineColor="#FF000000"
+                    vhb:outlineSize="4" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_coping"
+                style="@style/MainMenuButton"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="#993399" >
+                <ImageButton
+                    android:id="@+id/img_coping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@null"
+                    android:contentDescription="@string/coping_tools"
+                    android:focusable="true"
+                    android:padding="20dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/sel_coping_icon" />
+                <com.t2.vhb.util.OutlinedTextView
+                    android:id="@+id/lbl_contact"
+                    style="@style/MenuItemText"
+                    android:gravity="left"
+                    android:importantForAccessibility="no"
+                    android:text="@string/coping_tools"
+                    vhb:outlineColor="#FF000000"
+                    vhb:outlineSize="4" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

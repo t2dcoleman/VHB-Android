@@ -1,0 +1,132 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".coping.cards.CopingHelpActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_large"
+            android:background="@drawable/card_background"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_very_large"
+            tools:ignore="UselessParent" >
+
+            <TextView
+                android:id="@+id/guide_top"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/margin_large"
+                android:text="@string/new_guide_preamble" />
+
+            <TextView
+                android:id="@+id/guide_one_bullet_label"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/guide_top"
+                android:text="@string/new_guide_1_label" />
+
+            <TextView
+                android:id="@+id/guide_one"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/guide_top"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:layout_toEndOf="@+id/guide_one_bullet_label"
+                android:layout_toRightOf="@+id/guide_one_bullet_label"
+                android:text="@string/new_guide_1" />
+
+            <TextView
+                android:id="@+id/guide_two_bullet_label"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/guide_one"
+                android:layout_marginTop="@dimen/margin_large"
+                android:text="@string/new_guide_2_label" />
+
+            <TextView
+                android:id="@+id/guide_two"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/guide_one"
+                android:layout_alignLeft="@+id/guide_one"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/guide_one"
+                android:layout_marginTop="@dimen/margin_large"
+                android:text="@string/new_guide_2" />
+
+            <TextView
+                android:id="@+id/guide_three_bullet_label"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/guide_two"
+                android:layout_marginTop="@dimen/margin_large"
+                android:text="@string/new_guide_3_label" />
+
+            <TextView
+                android:id="@+id/guide_three"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/guide_two"
+                android:layout_alignLeft="@+id/guide_two"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/guide_two"
+                android:layout_marginTop="@dimen/margin_large"
+                android:text="@string/new_guide_3" />
+
+            <RelativeLayout
+                android:id="@+id/add_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/guide_three"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp" >
+
+
+                <Button
+                    android:id="@+id/add"
+                    android:layout_width="190dp"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/card_add_button"
+                    android:textSize="18sp"
+                    android:drawableStart="@drawable/icon_coping_cards_button"
+                    android:drawableLeft="@drawable/icon_coping_cards_button"
+                    android:background="@drawable/btn_card"
+                    android:contentDescription="@string/card_add_button"
+                    android:filterTouchesWhenObscured="true" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

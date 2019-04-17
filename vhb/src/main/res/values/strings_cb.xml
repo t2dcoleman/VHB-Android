@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Created by Wes Turney on 12/17/13.
+
+ControlledBreathingLib
+
+Copyright © 2009-2014 United States Government as represented by
+the Chief Information Officer of the National Center for Telehealth
+and Technology. All Rights Reserved.
+
+Copyright © 2009-2014 Contributors. All Rights Reserved.
+
+THIS OPEN SOURCE AGREEMENT ("AGREEMENT") DEFINES THE RIGHTS OF USE,
+REPRODUCTION, DISTRIBUTION, MODIFICATION AND REDISTRIBUTION OF CERTAIN
+COMPUTER SOFTWARE ORIGINALLY RELEASED BY THE UNITED STATES GOVERNMENT
+AS REPRESENTED BY THE GOVERNMENT AGENCY LISTED BELOW ("GOVERNMENT AGENCY").
+THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN
+INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR
+REDISTRIBUTIONS OF THE SUBJECT SOFTWARE. ANYONE WHO USES, REPRODUCES,
+DISTRIBUTES, MODIFIES OR REDISTRIBUTES THE SUBJECT SOFTWARE, AS DEFINED
+HEREIN, OR ANY PART THEREOF, IS, BY THAT ACTION, ACCEPTING IN FULL THE
+RESPONSIBILITIES AND OBLIGATIONS CONTAINED IN THIS AGREEMENT.
+
+Government Agency: The National Center for Telehealth and Technology
+Government Agency Original Software Designation: ControlledBreathingLib001
+Government Agency Original Software Title: ControlledBreathingLib
+User Registration Requested. Please send email
+with your contact information to: robert.a.kayl.civ@mail.mil
+Government Agency Point of Contact for Original Software: robert.a.kayl.civ@mail.mil
+-->
+<resources>
+
+    <string name="inhale_instructions">Let the air out of your lungs, pushing as much air as you can out of your lungs
+	by tightening your stomach. Then while inhaling, press and hold the button
+	down. Try to make this a slow deep breath by pushing your stomach out. Release
+	the button only when you start to exhale.</string>
+    <string name="exhale_instructions">Take a deep breath, pushing out
+	your stomach and gathering as much air as you can into your lungs. When you begin to exhale, press and hold the button down.
+	Try to make this a slow long exhale by pushing your stomach out. Release the
+	button only when you start to inhale.</string>
+    <string name="rest_instructions">Let the air out of your lungs, pushing as much air as you can out of your lungs by tightening your stomach. Then, press and hold the button down. Relax without inhaling for as long as it remains comfortable. Release the button only when you start to inhale.\n\nRest is an optional feature and can be disabled.</string>
+    <string name="hold_instructions">Take a deep breath, pushing out
+	your stomach and gathering as much air as you can into your lungs. When you have fully inhaled, press and hold the button down. 
+	Hold the inhale for as long as it remains comfortable. Release the button only when you start to exhale.\n\nHold is an optional feature and can be disabled.</string>
+    <string name="inhale">Inhale</string>
+    <string name="exhale">Exhale</string>
+    <string name="rest">Rest</string>
+    <string name="hold">Hold</string>
+    <string name="ready">Ready?</string>
+    <string name="welldone">Well Done!</string>
+	<string name="Increase_duration_icon">Increase duration icon</string>
+	<string name="Decrease_duration_icon">Decrease duration icon</string>
+	<string name="Increase_duration_button">Increase duration button</string>
+	<string name="Decrease_duration_button">Decrease duration button</string>
+</resources>

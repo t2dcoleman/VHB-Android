@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Created by Wes Turney on 12/17/13.
+
+VirtualHopeBox
+
+Copyright © 2009-2014 United States Government as represented by
+the Chief Information Officer of the National Center for Telehealth
+and Technology. All Rights Reserved.
+
+Copyright © 2009-2014 Contributors. All Rights Reserved.
+
+THIS OPEN SOURCE AGREEMENT ("AGREEMENT") DEFINES THE RIGHTS OF USE,
+REPRODUCTION, DISTRIBUTION, MODIFICATION AND REDISTRIBUTION OF CERTAIN
+COMPUTER SOFTWARE ORIGINALLY RELEASED BY THE UNITED STATES GOVERNMENT
+AS REPRESENTED BY THE GOVERNMENT AGENCY LISTED BELOW ("GOVERNMENT AGENCY").
+THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN
+INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR
+REDISTRIBUTIONS OF THE SUBJECT SOFTWARE. ANYONE WHO USES, REPRODUCES,
+DISTRIBUTES, MODIFIES OR REDISTRIBUTES THE SUBJECT SOFTWARE, AS DEFINED
+HEREIN, OR ANY PART THEREOF, IS, BY THAT ACTION, ACCEPTING IN FULL THE
+RESPONSIBILITIES AND OBLIGATIONS CONTAINED IN THIS AGREEMENT.
+
+Government Agency: The National Center for Telehealth and Technology
+Government Agency Original Software Designation: VirtualHopeBox001
+Government Agency Original Software Title: VirtualHopeBox
+User Registration Requested. Please send email
+with your contact information to: robert.a.kayl.civ@mail.mil
+Government Agency Point of Contact for Original Software: robert.a.kayl.civ@mail.mil
+-->
+<resources>
+    <!-- General -->
+    <string name="app_name">Virtual Hope Box</string>
+    <string name="done">Done</string>
+    <string name="revert">Revert</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="rows">Rows</string>
+    <string name="columns">Columns</string>
+    <string name="t2_logo_description">The T2 logo.</string>
+    <string name="add_calendar">Add to Calendar</string>
+    <string name="send_invite">Send Invite</string>
+    <string name="activity">Activity</string>
+    <string name="date_time">Date &amp; Time</string>
+    <string name="def_date">Monday, Jan. 1</string>
+    <string name="def_time">10:45 AM</string>
+    <string name="def_sec">0.0 s</string>
+    <string name="add_guest">Add Guest</string>
+    <string name="add_invitee">Add Invitee</string>
+    <string name="contact_photo">Contact photo.</string>
+    <string name="whojamesjoneswho">James Earl Jones</string>
+    <string name="add_contact">Add Contact.</string>
+    <string name="remove_contact">Remove Contact.</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="guided_imagery_desc">Guided imagery icon</string>
+    <string name="blank_desc"> </string>
+    <string name="disable">Disable</string>
+    <string name="press_hold">Press &amp; Hold</string>
+    <string name="emergency_hotlines">Emergency Hotlines</string>
+    <string name="emergency_hotlines_icon">Emergency Hotlines icon</string>
+    <string name="setup_message">Pick a few people from your contact list who you may want to call in an emergency.\n\nYou can always add more later.</string>
+    <string name="fav_quote">Favorite Quote</string>
+    <string name="edit_idea">Edit Activity Idea</string>
+    <string name="remove_idea">Remove Activity Idea</string>
+    <string name="add_media">Add Media</string>
+    <string name="remove_media">Remove Media</string>
+    <string name="activity_name_hint">Activity Name</string>
+    <string name="company_logo_hint">Company Logo</string>
+    <string name="rotate_left">Rotate Left</string>
+    <string name="rotate_right">Rotate Right</string>
+    <string name="filters">Filters</string>
+    <string name="disable_captions">Disable Captions</string>
+    <string name="dha">Defense Health Agency (“DHA”) Software End User License Agreement</string>
+    <string name="dhaeula1">By agreeing to have any of DHA’s software products installed on your device and by subsequent use of the Software, you agree to comply with the terms of this general End User License Agreement ("EULA") where no specific agreement is in place between DHA and the user of the software. If you do not agree to the terms of this EULA, do not install or use the Software but uninstall it from your device. This EULA applies to any upgrades and supplements to the original Software provided and is referred to on your opening screen.</string>
+    <string name="dhaeula2">The Licensed Software is owned by the Defense Health Agency (“DHA”), which is under the United States Department of Defense ("DoD"). The Software is licensed, not sold, only on the terms of this EULA. Acceptance and installation of the software indicates your acceptance of the terms and conditions of this EULA.</string>
+    <string name="dhaeula3">Upon installation of the software, you will acquire the right to use the Software directly from DHA. You assume responsibility for the selection of the program to achieve your intended results, and for the installation, use and results obtained from the Licensed Software.</string>
+    <string name="dhaeula4">In consideration of your acceptance of the terms and conditions contained in this EULA, DHA grants you a non-exclusive license to use the Licensed Software and the associated documentation for your own needs on one device. You are not licensed to rent, lease, transfer or distribute the Software.</string>
+    <string name="dhaeula5">Title to the Software, including media and documentation, remains with DHA. You may not copy, reproduce or make data transmissions, in whole or in part, except as is necessary for back-up or archival purposes. You may not reverse engineer, translate, disassemble, decompile the Software or create similar</string>
+    <string name="dhaeula6">The license is effective upon acceptance and installation of the Licensed Software and shall continue until terminated. You may terminate it at any time by uninstalling the Licensed Software. DHA has the right to terminate this Agreement if you fail to comply with any term or condition of this EULA. Upon termination, you shall stop all use of the Software and uninstall the Licensed Software.</string>
+    <string name="dhaeula7">Confidentiality of the Software will survive any termination of this EULA, to include the application, design and functionality.</string>
+    <string name="dhaeula8">This Software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</string>
+    <string name="dhaeula9">In no event will DHA be liable for any loss of data, loss of use, or indirect, special, incidental or consequential damages in any way related to or arising out of the use of the Software. DHA’s maximum liability shall in no event exceed the amount paid to DHA for the Licensed Software.</string>
+    <string name="dhaeula10">The prevailing party in any action or proceeding between DHA and the End-User Licensee arising out of or related to this Agreement shall be entitled to recover reasonable legal fees and costs, including lawyers’ fees, which may be incurred.</string>
+    <string name="dhaeula11">This Agreement shall be construed and enforced in accordance with the laws of the District of Columbia, United States of America and each party agrees to be subject to those relevant laws.</string>
+    <string name="dhaeula12">You also acknowledge that it is your responsibility to protect and otherwise secure any information captured and stored by the software once installed on your device.</string>
+    <string name="dhaeula13">Information captured and stored by the software program may be considered sensitive information. It is the end user’s responsibility to protect or otherwise secure the content captured and stored by the software once installed on the end user’s device.</string>
+    <string name="dhaeula14">It is understood and acknowledged that the DHA has the absolute right to obtain injunctive relief to protect DHA’s proprietary rights.</string>
+    <string name="dhaeula15">By using the Software, you further agree that this is the complete and exclusive statement of the Agreement that supersedes any proposal or prior agreement, oral or written, and any other communications relating to the subject matter of this EULA.</string>
+    <string name="dhaeula16">If any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions will not be affected.</string>
+    <string name="dhaeula17">Disclaimer: The information in the application is not intended as a substitute for any type of professional medical services or training and should not be used for such purposes. The information is provided as is, and the author does not warrant the accuracy of the information. This information is not meant to diagnose or develop permanent treatment plans for health emergencies, health problems or diseases. If you are in an emergency or life-threatening medical situation, seek medical assistance immediately. Dial emergency number (911 in the USA) for emergency medical services.</string>
+    <string name="dhaeula18">External Links: The appearance of external hyperlinks does not constitute endorsement by the United States Department of Defense of the linked websites, or the information, products or services contained therein. The United States Department of Defense does not exercise any editorial control over the information you may find at these locations. All links are provided consistent with the stated purpose of these DoD websites.</string>
+    <string name="support_contacts">Support Contacts</string>
+    <string name="remind_me">Remind Me</string>
+    <string name="distract_me">Distract Me</string>
+    <string name="relax_me">Relax Me</string>
+    <string name="inspire_me">Inspire Me</string>
+    <string name="coping_tools">Coping Tools</string>
+    <string name="manage_media_info">This is where you can manage the media that holds personal significance to you.\n\nFor example you might add:\n\nPictures of a close friend or relative\n\nSongs you find particularly moving\n\nA special message from a loved one</string>
+    <string name="edit_ideas">Edit Ideas</string>
+    <string name="start_over">Start Over</string>
+    <string name="help">Help</string>
+    <string name="add_activity_idea">Add Activity Idea</string>
+    <string name="support_contracts">Support Contacts</string>
+    <string name="backup">Backup</string>
+    <string name="add_favorites">Add to Favorites</string>
+    <string name="boots_cats">Boots and cats and boots and cats and cats and boots.</string>
+    <string name="mc_eiht">MC Eiht</string>
+    <string name="refresh_quote">Refresh Quote</string>
+    <string name="top_border">Top Border</string>
+    <string name="bottom_border">Bottom Border</string>
+    <string name="enable_reminder">  Enable Daily Reminder</string>
+    <string name="negative_thoughts">Use this app when you\'re feeling stressed or having negative thoughts.</string>
+    <string name="positive_thoughts">Add things that remind you of the positive things in life.</string>
+    <string name="putin_vhb">Some of the things you can put into your Virtual Hope Box include:</string>
+    <string name="camera_icon">Camera Icon</string>
+    <string name="film_icon">Film Icon</string>
+    <string name="memorable_videos">Memorable Videos</string>
+    <string name="cherished_pictures">Cherished Pictures</string>
+    <string name="radio_icon">Radio Icon</string>
+    <string name="supportive_messages">Supportive Messages</string>
+    <string name="cd_icon">Music CD Icon</string>
+    <string name="favorite_songs">Favorite Songs</string>
+    <string name="quote_icon">Quote Icon</string>
+    <string name="inspirational_quotes">Inspirational Quotes</string>
+    <string name="restore_backup">Restore Backup</string>
+    <string name="deniedpermissiontocalendar">Denied permission to access calendar</string>
+    <string name="deniedpermissiontocontacts">Denied permission to access contacts</string>
+    <string name="deniedpermissiontophotos">Denied permission to access photos</string>
+    <string name="deniedpermissiontomedia">Denied permission to access Media</string>
+
+
+    <!-- Home -->
+    <string name="about_us">About Us</string>
+    <string name="permissionscheck">Permissions Check</string>
+    <string name="permissionscheckmessage">Declining any of the requested permissions will cause Virtual Hope Box to act abnormally. Please accept all of the requested permissions</string>
+    <string name="gotoappsettings">Go To App Settings</string>
+    <!-- About Us -->
+    <string name="t2_line_1">Defense Health</string>
+    <string name="t2_line_2">Agency (“DHA”)</string>
+    <string name="about_us_header">DHA Connected Health is the branch of the Defense Health Agency responsible for reviewing, evaluating, coordinating, and integrating the use and development of health technology supporting Military Health System beneficiaries. These technologies include telehealth, mobile apps, mobile web, virtual reality, augmented reality, and wearable devices. Our vision is leveraging technology to optimize health care across the Department of Defense.</string>
+    <!-- Photo Puzzle -->
+    <string name="photo_puzzle_hint">Show Hint</string>
+    <string name="photo_puzzle_change_photo">Change Photo</string>
+    <string name="photo_puzzle_solution_description">The solution to this puzzle.</string>
+    <!-- Settings -->
+    <string name="settings_menu">Settings</string>
+    <!-- Eula -->
+    <string name="eula_header">SOFTWARE END USER LICENCE AGREEMENT</string>
+    <string name="eula_accept">Accept</string>
+    <string name="eula_decline">Decline</string>
+    <!-- Contacts -->
+    <string name="contacts_remove">Remove Contact</string>
+    <string name="contacts_add">Add Contact</string>
+    <string name="contacts_add_success">Contact added successfully.</string>
+    <string name="contacts_remove_success">Contact removed successfully.</string>
+    <string name="contacts_avatar_description">A picture of this contact.</string>
+    <!-- Quotes -->
+    <string name="quotes">Inspirational Quotes</string>
+    <string name="quotes_add">Add Quote</string>
+    <string name="quotes_edit">Edit Quote</string>
+    <string name="quotes_edit_all">Manage Quotes</string>
+    <string name="quotes_remove">Remove Quote</string>
+    <string name="quotes_save_success">Quote saved successfully.</string>
+    <string name="quotes_pref_delay">Slideshow Delay</string>
+    <string name="quotes_pref_delay_dialog_title">Slideshow Delay</string>
+    <string name="quotes_quote_hint">Quote</string>
+    <string name="quotes_author_hint">Author</string>
+    <!-- Messages -->
+    <string name="message_add_success">Message added successfully.</string>
+    <!-- Media -->
+    <string name="media_thumbnail_description">An image representing this media item</string>
+    <!-- Video -->
+    <string name="videos_add_success">Video added successfully.</string>
+    <string name="videos_dialog_title_field">Title</string>
+    <string name="videos_dialog_description_field">Description</string>
+    <string name="videos_icon_description">A video icon.</string>
+    <!-- Music -->
+    <string name="music_add">Add Song</string>
+    <string name="music_remove">Remove Song</string>
+    <string name="music_unknown_artist">Unknown Artist</string>
+    <string name="music_untitled">Untitled Song</string>
+    <string name="music_add_success">Song added successfully.</string>
+    <string name="music_remove_success">Song removed successfully.</string>
+    <string name="music_icon_description">A music icon.</string>
+    <!-- Photos -->
+    <string name="photos_add_success">Photo added successfully.</string>
+    <string name="photos_dialog_title_field">Title</string>
+    <string name="photos_dialog_description_field">Description</string>
+    <!-- Setup Steps -->
+    <string name="setup_welcome_header">Welcome to your Virtual Hope Box</string>
+    <!-- Coping Cards -->
+    <string name="music_press_menu">Press \'Menu\' to add music</string>
+    <string name="music_empty">No music.</string>
+    <string name="quotes_press_menu">Press \'Menu\' to add quotes</string>
+    <string name="quotes_empty">No quotes.</string>
+    <!-- Controlled Breathing -->
+    <string name="pref_send_study_log">pref_send_study_log</string>
+    <string name="pref_disenroll_study">pref_disenroll_study</string>
+    <string name="pref_clear_preferences">pref_clear_preferences</string>
+    <string name="pref_study_category">pref_study_category</string>
+    <string name="pref_breathing_custom_music">pref_breathing_custom_music</string>
+    <string name="pref_breathing_setup">pref_breathing_setup</string>
+    <string name="saved_fips_version">Current Fips</string>
+    <string name="saved_fips_version_coping">Current Fips (coping)</string>
+    <string name="saved_fips_version_sudoku">Current Fips (sudoku)</string>
+    <string name="saved_fips_version_mahjong">Current Fips (mahjong)</string>
+
+    <!--Security strings-->
+    <string name="title_activity_login">Login</string>
+    <string name="passwordPrompt">The application has been locked. Please provide your password to unlock.</string>
+    <string name="enter_password">Enter password</string>
+    <string name="unlock_via_fingerprint">Unlock Via Fingerprint</string>
+    <string name="unlock">Unlock</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="title_activity_create_login">Setup Security</string>
+    <string name="passwordSetupPrompt">Please setup a numeric password that you will use to login to the app.</string>
+    <string name="security_question_prompt">Now we are going to setup security questions to recover your password.</string>
+    <string name="enter_the_first_question">Enter the first question</string>
+    <string name="enter_an_answer_to_the_first_question">Enter an answer to the first question</string>
+    <string name="enter_a_second_question">Enter a second question</string>
+    <string name="enter_an_answer_to_the_second_question">Enter an answer to the second question</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="security_fingerprint_text">Please place your finger on your device\'s fingerprint reader</string>
+    <string name="security_fingerprint_notsetup_text">To set up fingerprint login. Go to Settings -> Lock screen And security -> Fingerprints. Click on Add fingerprint and follow the instructions. Your fingerprint will be setup once complete and will be usable in this application</string>
+    <string name="title_activity_forgot_pass">Recover Password</string>
+    <string name="new_password_prompt">Please enter the new password you want to use.</string>
+    <string name="setup_security">Change Security Settings</string>
+    <string name="save">Save</string>
+    <string name="title_activity_update_login">Update Login information</string>
+    <string name="pref_update_security">Update security features</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+
+</resources>

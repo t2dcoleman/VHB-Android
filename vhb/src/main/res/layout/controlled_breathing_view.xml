@@ -1,0 +1,197 @@
+<!--
+Created by Wes Turney on 12/17/13.
+
+ControlledBreathingLib
+
+Copyright © 2009-2014 United States Government as represented by
+the Chief Information Officer of the National Center for Telehealth
+and Technology. All Rights Reserved.
+
+Copyright © 2009-2014 Contributors. All Rights Reserved.
+
+THIS OPEN SOURCE AGREEMENT ("AGREEMENT") DEFINES THE RIGHTS OF USE,
+REPRODUCTION, DISTRIBUTION, MODIFICATION AND REDISTRIBUTION OF CERTAIN
+COMPUTER SOFTWARE ORIGINALLY RELEASED BY THE UNITED STATES GOVERNMENT
+AS REPRESENTED BY THE GOVERNMENT AGENCY LISTED BELOW ("GOVERNMENT AGENCY").
+THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN
+INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR
+REDISTRIBUTIONS OF THE SUBJECT SOFTWARE. ANYONE WHO USES, REPRODUCES,
+DISTRIBUTES, MODIFIES OR REDISTRIBUTES THE SUBJECT SOFTWARE, AS DEFINED
+HEREIN, OR ANY PART THEREOF, IS, BY THAT ACTION, ACCEPTING IN FULL THE
+RESPONSIBILITIES AND OBLIGATIONS CONTAINED IN THIS AGREEMENT.
+
+Government Agency: The National Center for Telehealth and Technology
+Government Agency Original Software Designation: ControlledBreathingLib001
+Government Agency Original Software Title: ControlledBreathingLib
+User Registration Requested. Please send email
+with your contact information to: robert.a.kayl.civ@mail.mil
+Government Agency Point of Contact for Original Software: robert.a.kayl.civ@mail.mil
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <com.t2.controlledbreathing.ControlledBreathingBackgroundView
+        android:id="@+id/img_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:id="@+id/lay_breathing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+        <RelativeLayout
+            android:id="@+id/lay_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+            <ImageButton
+                android:id="@+id/btn_add_time"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:contentDescription="@string/Increase_duration_icon"
+                android:scaleType="centerInside"
+                android:src="@drawable/breathing_plus" />
+            <ImageButton
+                android:id="@+id/btn_remove_time"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:contentDescription="@string/Decrease_duration_icon"
+                android:scaleType="centerInside"
+                android:src="@drawable/breathing_minus" />
+            <LinearLayout
+                android:layout_width="54dp"
+                android:layout_height="0dp"
+                android:layout_above="@+id/btn_remove_time"
+                android:layout_below="@+id/btn_add_time" >
+                <com.t2.controlledbreathing.ControlledBreathingBarView
+                    android:id="@+id/bar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bar" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/lay_breathing_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true" >
+            <requestFocus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.t2.controlledbreathing.StrokedTextView
+                android:id="@+id/lbl_inhale"
+                style="@style/ControlledBreathingLargeTextPortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/lbl_message"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@null"
+                android:gravity="center_horizontal"
+                android:importantForAccessibility="no"
+                android:text="@string/inhale"
+                android:visibility="invisible"
+                cb:strokeWidth="10.0" />
+            <com.t2.controlledbreathing.StrokedTextView
+                android:id="@+id/lbl_hold"
+                style="@style/ControlledBreathingLargeTextPortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/lbl_message"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@null"
+                android:gravity="center_horizontal"
+                android:importantForAccessibility="no"
+                android:text="@string/hold"
+                android:visibility="invisible"
+                cb:strokeWidth="10.0" />
+            <com.t2.controlledbreathing.StrokedTextView
+                android:id="@+id/lbl_rest"
+                style="@style/ControlledBreathingLargeTextPortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/lbl_message"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@null"
+                android:gravity="center_horizontal"
+                android:importantForAccessibility="no"
+                android:text="@string/rest"
+                android:visibility="invisible"
+                cb:strokeWidth="10.0" />
+            <com.t2.controlledbreathing.StrokedTextView
+                android:id="@+id/lbl_exhale"
+                style="@style/ControlledBreathingLargeTextPortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/lbl_message"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@null"
+                android:gravity="center_horizontal"
+                android:importantForAccessibility="no"
+                android:text="@string/ready"
+                cb:strokeWidth="10.0" />
+            <com.t2.controlledbreathing.StrokedTextView
+                android:id="@+id/lbl_message"
+                style="@style/ControlledBreathingLargeTextPortrait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:gravity="center_horizontal"
+                android:importantForAccessibility="no"
+                android:text="@string/tapstart"
+                android:textSize="26sp"
+                android:textStyle="normal"
+                cb:strokeWidth="10.0" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.t2.controlledbreathing.StrokedTextView
+        android:id="@+id/lbl_complete"
+        style="@style/ControlledBreathingLargeTextPortrait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:gravity="center_horizontal"
+        android:importantForAccessibility="no"
+        android:text="@string/welldone"
+        android:visibility="invisible"
+        cb:strokeWidth="10.0" />
+    <RelativeLayout
+        android:id="@+id/lay_overlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="0dp"
+        android:background="#AA000000"
+        android:visibility="gone" >
+        <com.t2.controlledbreathing.StrokedTextView
+            android:id="@+id/lbl_pause"
+            style="@style/ControlledBreathingLargeTextPortrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="false"
+            android:layout_centerHorizontal="false"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null"
+            android:gravity="center_horizontal"
+            android:importantForAccessibility="no"
+            android:text="@string/paused"
+            cb:strokeWidth="10.0" />
+    </RelativeLayout>
+</RelativeLayout>

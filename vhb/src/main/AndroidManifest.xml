@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Created by Wes Turney on 12/17/13.
+
+VirtualHopeBox
+
+Copyright © 2009-2014 United States Government as represented by
+the Chief Information Officer of the National Center for Telehealth
+and Technology. All Rights Reserved.
+
+Copyright © 2009-2014 Contributors. All Rights Reserved.
+
+THIS OPEN SOURCE AGREEMENT ("AGREEMENT") DEFINES THE RIGHTS OF USE,
+REPRODUCTION, DISTRIBUTION, MODIFICATION AND REDISTRIBUTION OF CERTAIN
+COMPUTER SOFTWARE ORIGINALLY RELEASED BY THE UNITED STATES GOVERNMENT
+AS REPRESENTED BY THE GOVERNMENT AGENCY LISTED BELOW ("GOVERNMENT AGENCY").
+THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN
+INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR
+REDISTRIBUTIONS OF THE SUBJECT SOFTWARE. ANYONE WHO USES, REPRODUCES,
+DISTRIBUTES, MODIFIES OR REDISTRIBUTES THE SUBJECT SOFTWARE, AS DEFINED
+HEREIN, OR ANY PART THEREOF, IS, BY THAT ACTION, ACCEPTING IN FULL THE
+RESPONSIBILITIES AND OBLIGATIONS CONTAINED IN THIS AGREEMENT.
+
+Government Agency: The National Center for Telehealth and Technology
+Government Agency Original Software Designation: VirtualHopeBox001
+Government Agency Original Software Title: VirtualHopeBox
+User Registration Requested. Please send email
+with your contact information to: robert.a.kayl.civ@mail.mil
+Government Agency Point of Contact for Original Software: robert.a.kayl.civ@mail.mil
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.t2.vhb"
+    android:versionCode="67"
+    android:versionName="1.5.9">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+
+    <!-- android:backupAgent=".VhbBackupAgent" -->
+    <application
+        android:name=".VhbApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Vhb"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <uses-library android:name="org.apache.http.legacy"
+            android:required="false"/>
+
+        <activity
+            android:name=".home.HomeActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" />
+        <receiver android:name=".inspire.quotes.QuoteNotificationReceiver" />
+        <receiver android:name=".media.SdMountReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".home.EulaActivity" />
+        <activity android:name=".home.AboutUsActivity" />
+        <activity android:name=".home.CategoryListActivity" />
+        <activity android:name=".home.HomeSettingsActivity" />
+        <activity android:name=".home.WelcomeActivity" />
+        <activity android:name=".media.MediaHelpActivity" />
+        <activity
+            android:name=".media.MediaViewActivity"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".inspire.quotes.QuotesViewActivity"
+            android:hardwareAccelerated="true" />
+        <activity android:name=".inspire.quotes.QuotesEditActivity" />
+        <activity android:name=".inspire.quotes.QuotesSettingsActivity" />
+        <activity android:name=".inspire.quotes.QuotesAddActivity" />
+        <activity
+            android:name=".relax.breathing.ControlledBreathingActivity"
+            android:hardwareAccelerated="true" />
+        <activity android:name=".relax.breathing.ControlledBreathingSettingsActivity" />
+        <activity android:name=".relax.breathing.ControlledBreathingMusicActivity" />
+        <activity android:name=".relax.breathing.ControlledBreathingDurationActivity" />
+        <activity android:name=".relax.cbti.CbtiActivity" />
+        <activity
+            android:name=".relax.pmr.PmrActivity"
+            android:hardwareAccelerated="true" />
+        <activity android:name=".contacts.ContactsViewActivity" />
+        <activity android:name=".contacts.ContactsHelpActivity" />
+        <activity
+            android:name=".distractions.wordsearch.WordsearchActivity"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".distractions.photopuzzle.PhotoPuzzleActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".distractions.photopuzzle.PhotoPuzzleSettingsActivity" />
+        <activity android:name=".distractions.sudoku.SudokuActivity" />
+        <activity android:name=".distractions.sudoku.SudokuChangePuzzleActivity" />
+        <activity
+            android:name=".distractions.mahjong.MahjongActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".distractions.mahjong.MahjongChangePuzzleActivity" />
+        <activity android:name=".distractions.mahjong.MahjongSettingsActivity" />
+        <activity android:name=".coping.activities.ActivitySchedulerActivity" />
+        <activity android:name=".coping.activities.ActivityIdeaEditActivity" />
+        <activity
+            android:name="com.t2.youtube.YouTubeSearchActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value="com.t2.youtube.YouTubeActivity" />
+        </activity>
+        <activity android:name=".widget.QuoteWidgetPreferenceActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".widget.QuoteWidgetProvider"
+            android:label="@string/quotes">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/quote_widget_info" />
+        </receiver>
+
+        <service android:name=".widget.QuoteWidgetProvider$UpdateService" />
+
+        <activity android:name=".coping.cards.CopingViewActivity" />
+        <activity android:name=".coping.cards.CopingEditActivity" />
+        <activity android:name=".coping.cards.CopingHelpActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".CreateLoginActivity"
+            android:label="@string/title_activity_create_login" />
+        <activity
+            android:name=".ForgotPassActivity"
+            android:label="@string/title_activity_forgot_pass" />
+        <activity
+            android:name=".UpdateLoginActivity"
+            android:label="@string/title_activity_update_login" />
+
+        <provider
+            android:name=".db.VhbProvider"
+            android:authorities="com.t2.vhb"
+            android:exported="false" />
+        <provider
+            android:name="com.t2.sudoku.db.SudokuProvider"
+            android:authorities="com.t2.sudoku"
+            android:exported="false" />
+        <provider
+            android:name="com.t2.mahjong.db.MahjongProvider"
+            android:authorities="com.t2.mahjong"
+            android:exported="false" />
+        <provider
+            android:name="com.t2.copingcards.db.CopingProvider"
+            android:authorities="com.t2.copingcards"
+            android:exported="false" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

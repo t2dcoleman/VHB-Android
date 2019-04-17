@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Created by Wes Turney on 12/17/13.
+
+MahjongLib
+
+Copyright © 2009-2014 United States Government as represented by
+the Chief Information Officer of the National Center for Telehealth
+and Technology. All Rights Reserved.
+
+Copyright © 2009-2014 Contributors. All Rights Reserved.
+
+THIS OPEN SOURCE AGREEMENT ("AGREEMENT") DEFINES THE RIGHTS OF USE,
+REPRODUCTION, DISTRIBUTION, MODIFICATION AND REDISTRIBUTION OF CERTAIN
+COMPUTER SOFTWARE ORIGINALLY RELEASED BY THE UNITED STATES GOVERNMENT
+AS REPRESENTED BY THE GOVERNMENT AGENCY LISTED BELOW ("GOVERNMENT AGENCY").
+THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN
+INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR
+REDISTRIBUTIONS OF THE SUBJECT SOFTWARE. ANYONE WHO USES, REPRODUCES,
+DISTRIBUTES, MODIFIES OR REDISTRIBUTES THE SUBJECT SOFTWARE, AS DEFINED
+HEREIN, OR ANY PART THEREOF, IS, BY THAT ACTION, ACCEPTING IN FULL THE
+RESPONSIBILITIES AND OBLIGATIONS CONTAINED IN THIS AGREEMENT.
+
+Government Agency: The National Center for Telehealth and Technology
+Government Agency Original Software Designation: MahjongLib001
+Government Agency Original Software Title: MahjongLib
+User Registration Requested. Please send email
+with your contact information to: robert.a.kayl.civ@mail.mil
+Government Agency Point of Contact for Original Software: robert.a.kayl.civ@mail.mil
+-->
+<resources>
+    <string name="change_puzzle">Change Puzzle</string>
+    <string name="reset_puzzle">Reset Puzzle</string>
+    <string name="settings">Settings</string>
+    <string name="completed">Completed</string>
+    <string name="invert">Invert</string>
+    <string name="clear">Clear</string>
+    <string name="mahjong_instructions">The object of the game is to clear the playing area of tiles by matching pairs of tiles.\n\nYou can remove only those matching pairs of tiles where each tile has at least one side (left or right) free and no other tiles placed on top.\n\nMatching pairs must have identical symbols with two exceptions. The seasons and flowers tiles may be matched with any other tile of that particular set.</string>
+    <string name="seasons_tile">Seasons Tile</string>
+    <string name="flowers_tile">Flowers Tile</string>
+    <string name="seasons">Seasons</string>
+    <string name="flowers">Flowers</string>
+    <string name="instructions">Instructions</string>
+    <string name="toggle_highlighting">Toggle Highlighting</string>
+    <string-array name="tile_descriptions">
+        <item>One of Circles</item>
+        <item>Two of Circles</item>
+        <item>Three of Circles</item>
+        <item>Four of Circles</item>
+        <item>Five of Circles</item>
+        <item>Six of Circles</item>
+        <item>Seven of Circles</item>
+        <item>Eight of Circles</item>
+        <item>Nine of Circles</item>
+        <item>North Wind</item>
+        <item>West Wind</item>
+        <item>South Wind</item>
+        <item>East Wind</item>
+        <item>Red Dragon</item>
+        <item>Green Dragon</item>
+        <item>One of Letters</item>
+        <item>Two of Letters</item>
+        <item>Three of Letters</item>
+        <item>Four of Letters</item>
+        <item>Five of Letters</item>
+        <item>Six of Letters</item>
+        <item>Seven of Letters</item>
+        <item>Eight of Letters</item>
+        <item>Nine of Letters</item>
+        <item>One of Bamboo</item>
+        <item>Two of Bamboo</item>
+        <item>Three of Bamboo</item>
+        <item>Four of Bamboo</item>
+        <item>Five of Bamboo</item>
+        <item>Six of Bamboo</item>
+        <item>Seven of Bamboo</item>
+        <item>Eight of Bamboo</item>
+        <item>Nine of Bamboo</item>
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Autumn</item>
+        <item>Winter</item>
+        <item>Plum Flower</item>
+        <item>Orchid Flower</item>
+        <item>Lotus Flower</item>
+        <item>Bamboo Flower</item>
+    </string-array>
+</resources>
